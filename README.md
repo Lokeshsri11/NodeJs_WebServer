@@ -6,8 +6,8 @@
 ## What is NodeJs
    NodeJs is a javascript runtime environment that allow us to execute Javascript code on the server side, NodeJs is commonly used to create web server, APIs, and other backend services.
 
-## Steps to create your First WebServer using NOdeJS
-    Starting with install ```node.js``` on your machine. There is several ways to install NodeJs in your machine 
+## Steps to create your First WebServer using NodeJS
+   Starting with install ```node.js``` on your machine. There is several ways to install NodeJs in your machine.
 
 1.  Install manually from Official website (nodejs.org)
 
