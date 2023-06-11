@@ -23,8 +23,23 @@
 ### Creating a simple Web Server
    * One of the common use cases of Node.Js is building web server. Here we can maka a simple HTTP server using the built in ```http``` module in Node.js 
   > Open Server.js file 
+   
+   * In this Web Server example 
+   1. We import the ```http``` module using the ```require``` function 
+   2. We create a server using the ```createServer``` method which takes a callback function with two parameter: ```req```(request) and  ```res```(response)
+   3. Inside the callback function we set the response status to 200 and the content type to ```text/plain```. The line ```res.setHeader('Content-Type', 'text/plain')``` sets the ```content-type header of the HTTP response . The ```Content-Type``` header informs the client (usually a web browser) about the type of content being sent in the response.
+   4. Then we send the response with the message ```'Hello Loki'```
+   5. We specify the port number (3000 in this case) on which the server should listen for incoming requests using the ```listen``` method.
+   6. Finally, we log a message to the console when the server starts running.
 
+ ### Run Your File 
+   * Run the ```node``` command :
 
+```Javascript
+node server.js
+```
+ * Now if you visit ```http://localhost:3000``` in the browser you should see the "Hello Loki" message.  
+   
  
          
 
