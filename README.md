@@ -22,9 +22,9 @@
 
 ### Creating a simple Web Server
    * One of the common use cases of Node.Js is building web server. Here we can maka a simple HTTP server using the built in ```http``` module in Node.js 
-   >>> Open Server.js file
+  < Open Server.js file >
 
-   
+
  
          
 
