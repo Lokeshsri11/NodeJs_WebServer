@@ -19,6 +19,13 @@
 
  ### Installing dependencies
    *  Again in the terminal run the command ```npm install <package name >``` so there is bundle of packages in the npm(node package manager) so here we can install ```npm install express```  
+
+### Creating a simple Web Server
+   * One of the common use cases of Node.Js is building web server. Here we can maka a simple HTTP server using the built in ```http``` module in Node.js 
+   >>> Open Server.js file
+
+   
+ 
          
 
 
