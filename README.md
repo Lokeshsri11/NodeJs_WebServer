@@ -8,18 +8,17 @@
 
 ## Steps to create your First WebServer using NodeJS
 ### Install Node.js
-    Starting with install ``` Javascript
-    node.js``` on your machine. There is several ways to install NodeJs in your machine.
+   * Starting with install ```node.js``` on your machine. There is several ways to install NodeJs in your machine.
 
 1.  Install manually from Official website (nodejs.org)
 
 2.  Run a command in your shell ```install node``` and for linux ```sudo apt install node``` .
 
  ### Create a new Node.js project 
-     In the terminal run ```npm init``` 
+   * In the terminal run ```npm init``` 
 
  ### Installing dependencies
-     Again in the terminal run the command ```npm install <package name >``` so there is bundle of packages in the npm(node package manager) so here we can install ```npm install express```  
-
+   *  Again in the terminal run the command ```npm install <package name >``` so there is bundle of packages in the npm(node package manager) so here we can install ```npm install express```  
+         
 
 
